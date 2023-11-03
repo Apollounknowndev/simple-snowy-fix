@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.worldgen.ssf.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"FreezeTopLayerFeatureMixin",
+		"TreeFeatureMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

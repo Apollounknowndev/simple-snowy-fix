@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "simple-snowy-fix",
+	"version": "1.0.0",
+	"name": "Simple Snowy Fix",
+	"description": "Snow under trees and on leaves where it was once missing.",
+	"authors": [
+		"Apollo"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/simple-snowy-fix",
+		"issues": "https://github.com/Apollounknowndev/simple-snowy-fix/issues",
+		"source": "https://github.com/Apollounknowndev/simple-snowy-fix/"
+	},
+	"license": "MIT",
+	"icon": "assets/simple-snowy-fix/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"simple-snowy-fix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14",
+                "minecraft": ">=1.19",
+		"java": ">=17"
+	}
+}
